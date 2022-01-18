@@ -41,8 +41,8 @@ class shfztrace(object):
 
             @app.before_request
             def before():
-                self.id = request.headers.get("x-filib-id")
-                # x-filib-idが設定されていないリクエストに対してはトレースは実行しない
+                self.id = request.headers.get("x-shfzlib-id")
+                # x-shfzlib-idが設定されていないリクエストに対してはトレースは実行しない
                 if self.id != None:
                     sys.settrace(self.profile)
 

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="shfzflask",
-    version="0.0.1",
+    version="0.0.2",
     packages=["shfzflask"],
     url="https://github.com/shfz/shfz-flask",
     license="MIT",
