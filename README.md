@@ -1,5 +1,9 @@
 # shfz-flask
 
+![GitHub](https://img.shields.io/github/license/shfz/shfz-flask)
+![PyPI](https://img.shields.io/pypi/v/shfzflask)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/shfzflask)
+
 A trace library for Python Flask web application
 
 This library records what processing was done by each endpoint's request and uses it to generate fuzz with a genetic algorithm.
